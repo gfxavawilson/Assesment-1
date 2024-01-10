@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1700px;
+    width: 80%;
+    margin: 0 auto;
+}
+.section{
+    padding: 50px 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-list a{
+    transition: all .5s ease-in-out;
+}
+header{
+    padding: 50px 0;
+}
